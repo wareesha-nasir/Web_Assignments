@@ -1,0 +1,130 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    height: 130vh;
+    position: absolute;
+    left:15%;
+    top:20%;
+    background-color: rgb(40, 28, 201);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.register{
+    padding-left:5%;
+    padding-top: 1%;
+    padding-right: 7%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+H4{
+    color: rgb(97, 56, 136);
+    text-align: center;
+    position: absolute;
+    top:15%;
+    left:38%;
+}
+img{
+    margin-top:-2%;
+}
+#set{
+    position: absolute;
+    top:33%;
+}
+.address{
+    position: absolute;
+    top:34%;
+    left:28%;
+    width:30%;
+    height:10%;
+    margin-bottom: 1rem;
+}
+#city{
+    position: absolute;
+    top:45%;
+    left:28%;
+  
+    }
+    #pincode{
+        position: absolute;
+        top:50%;
+        left:28%;
+    }
+    #state{
+        position: absolute;
+        top:55%;
+        left:28%;
+    }
+    #country{
+        position: absolute;
+        top:60%;
+        left:28%;
+    }
+    #hobbies{
+        position: absolute; left:28%; top:65%
+    }
+    #hobbies1{
+        position: absolute; left:39%; top:65%;
+    }
+    #hobbies2{
+        position: absolute; left:49%; top:65%;
+    }
+    #hobbies3{
+        position: absolute; left:59%; top:65%;
+    }
+    #others{
+        position: absolute; left:71%; top:65%;
+    }
+    table{
+        
+        position: absolute;
+        top:70%;
+        left:28%;
+        }
+    td input{
+        border: 1px solid white;
+        width:8rem;
+    }
+    th{
+color:white;
+    }
+    #bca{
+        position: absolute;
+        left:28%;
+        top:89%;
+    }
+    #bcom{
+        position: absolute;
+        left:35%;
+        top:89%;
+    }
+    #bsc{
+        position: absolute;
+        left:42%;
+        top:89%;
+    }
+    #ba{
+        position: absolute;
+        left:50%;
+        top:89%;
+    }
+    #button{
+        float: left;
+        position: absolute;
+        left:40%;
+        top:94%;
+    }
+    label{
+        color:white;
+        text-transform: uppercase;
+    }
+    p{
+        color: white;
+    }
+    
+    
+    
+    

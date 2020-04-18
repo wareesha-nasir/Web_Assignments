@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div id="heading">
+        <center><img src="index.jpeg"></center>
+        <h4>STUDENT REGISTRATION FORM</h4>
+    </div>
+    <form action="page.html" method="GET">
+    <div class="container">
+      <div class="register">  
+        <label>First Name</label><input type="text" placeholder="Enter first name" value="" required style="margin-bottom: 1rem; width: 40%;"><p style="position: absolute; left:54%; ;">(max 30 characters a-z and A-Z)</p>
+        <label>Last Name </label><input type="text" placeholder="Enter last name" value="" required style="margin-bottom: 1rem; width: 40%;"><p style="position: absolute; left:54%;top: 6.5%;">(max 30 characters a-z and A-Z)</p>
+        <label>Date Of Birth</label><select style="margin-bottom: 1rem; width:20%;"><option>Day:</option>
+            <option>01</option><option>02</option><option>03</option><option>04</option><option>05</option>
+        </select>
+        <select style="position: absolute; left:40%; top:11.5%; width:15%;">
+            <option>Month:</option><option>01</option><option>02</option><option>03</option>
+            <option>04</option><option>05</option><option>06</option><option>07</option>
+        </select>
+        <select style="position: absolute; left:55%; top:11.5%; width:15%;">
+            <option>year:</option><option>2001</option><option>2002</option><option>2003</option>
+            <option>2004</option><option>2005</option><option>2006</option><option>2007</option>
+        </select>
+        <label>Email</label><input type="email" placeholder="email" value="" required style="margin-bottom: 1rem; width: 40%;">
+        <label>Mobile Number</label><input type="" placeholder="Enter phone no" value="" required style="margin-bottom: 1rem; width: 40%;"><p style="position: absolute; left:54%; top:22.5%;">(max 10 digits)</p>
+        <label >Gender</label><input type="radio" name="gender" value="male" style="position: absolute; left:28%; top:28%;"><p style="position: absolute; left:31%; top:28%;">Male</p>
+        <input type="radio" name="gender" value="female" style="position: absolute; left:50%; top:28%;"><p style="position: absolute; left:53%; top: 28%;">Female</p>
+         <label id="set">Address</label><textarea class="address" autofocus=""></textarea>
+         <label style="position: absolute; left:5%; top:45%;">City</label><input id="city" type="text" placeholder="Enter city name" value="" required><p style="position: absolute; left:56%; top:45.5%">(max 30 characters a-z and A-Z)</p>
+    <label style="position: absolute; left:5%; top:50%">pincode</label><input id="pincode" type="text" placeholder="Enter pincode" value="" required><p style="position: absolute; left:56%; top:50.5%">(max 6 digits)</p>
+    <label style="position: absolute; left:5%; top:55%;">State</label><input id="state" type="text" placeholder="Enter state" value="" required><p style="position: absolute; left:56%; top:55.5%">(max 30 characters a-z and A-Z)</p>
+    <label style="position: absolute; left:5%; top:60%;">Country</label><input id="country" type="text" placeholder="Enter country" value="" required>
+      <label style="position: absolute; left:5%; top:65%;">Hobbies</label> <input id="hobbies" type="checkbox"  name="hobbies" values="drawing"><p style="position: absolute; left:30%; top:65%">Drawing</p>
+      <input id="hobbies1" type="checkbox"  name="hobbies" values="drawing"><p style="position: absolute; left:41%; top:65%">Singing</p>
+      <input id="hobbies2" type="checkbox"  name="hobbies" values="drawing"><p style="position: absolute; left:51%; top:65%">Reading</p>
+   <input id="hobbies3" type="checkbox"  name="hobbies" values="drawing"><p style="position: absolute; left:61%; top:65%">Sketching</p>
+<input id="others" type="checkbox"  name="hobbies" values="drawing"><p style="position: absolute; left:73%; top:65%">others</p><textarea id="text" style="margin-top:50%; width: 20%;height: 6vh;margin-left: 79%; "></textarea>
+<label style="position: absolute; left:5%; top:70%;" >Qualification</label>
+
+<table>
+    <tr >
+        <th>SI.NO.Examination</th>
+        <th>Board</th>
+        <th>Percentage</th>
+        <th>Year of Passing</th>
+    </tr>
+    <tr >
+        <td style="color: white;">1 &nbsp;&nbsp;&nbsp; Class X</td>
+        <td><input type="text" value="" > </td>
+        <td><input type="text" value="" > </td>
+        <td><input type="text" value="" > </td>
+    </tr>
+    <tr >
+        <td style="color: white;">2 &nbsp;&nbsp;&nbsp; Class XII</td>
+        <td><input type="text" value="" > </td>
+        <td><input type="text" value=""  > </td>
+        <td><input type="text" value=""  > </td>
+    </tr>
+    <tr>
+        <td style="color: white;" >3 &nbsp;&nbsp;&nbsp; Graduation</td>
+        <td><input type="text" value=""  > </td>
+        <td><input type="text" value="" > </td>
+        <td><input type="text" value="" > </td>
+    </tr>
+    <tr>
+        <td style="color: white;">4 &nbsp;&nbsp;&nbsp; Masters</td>
+        <td><input type="text" value="" > </td>
+        <td><input type="text" value="" > </td>
+         <td><input type="text" value="" > </td>
+        </tr>
+        <tr>
+            <p style="position: absolute; top:83%; left:45%;">(max 10 char)</p>
+            <p style="position: absolute; top:83%; left:59%;">(upto 2 decimals)</p>
+
+        </tr>
+</table>
+<label style="position: absolute; left:5%; top:89%;">Courses <br>applied for</label>
+<input type="radio" id="bca" name="course" value="bca"><p style="position: absolute; left:30%; top:89%;">BCA</p>
+<input type="radio" id="bsc" name="course" value="bca"><p style="position: absolute; left:37%; top:89%;">B.Sc</p>
+<input type="radio" id="bcom" name="course" value="bca"><p style="position: absolute; left:44%; top:89%;">B.Com</p>
+<input type="radio" id="ba" name="course" value="bca"><p style="position: absolute; left:52%; top:89%;">B.A</p>
+</div>
+<div id="button">
+<a href="page.html"><button type="submit" name="submit" value="submit">Submit</button></a>
+<a href="test.html"><button type="reset" name="reset" value="Reset">Reset</button></a>
+</div>
+</div>
+
+</form>
+</body>
