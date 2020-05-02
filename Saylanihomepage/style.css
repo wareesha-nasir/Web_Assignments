@@ -20,6 +20,7 @@ nav{
     width: 100%;
     background-color: #f9f9f9;
     height: 10vh;
+    line-height: 8vh;
     /*overflow: hidden;*/
     
 }
@@ -35,54 +36,26 @@ ul{
     }
  ul li{
     float: left;
-    padding:20px;
+    padding:12px;
     position: relative;
     font-size: medium;
-   color:black;
+   
    text-align: center;
    
 }
-
-ul li:hover{
+ul li a{
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding:12px;
+    color:black;
+}
+ul li a:hover{
     background-color: royalblue;
     color: white;
- 
-    /*margin-top: 10%;*/} 
-.sub{
-    display: none;
-    background-color: #f9f9f9;
-    margin-left: -16px;
-    padding-left: 0%;
-}
+    border-radius: 50px;
 
-ul li:hover .sub{
-    display: block;
-    position: absolute;
-    margin-top: 20px;
-    
-}
-ul li:hover .sub ul {
-display:block;
-margin:-15%;
-margin-top: 10px;
-margin-right: 0;
-}
-ul li:hover .sub ul li{
-    min-width: 200px;
-    text-align: left;
-margin: 0;
-color:rgb(12, 11, 11);
-font-size: medium;
-padding: 3%;
+    } 
 
-}
-ul li:hover .sub ul li:hover{
-    color:white;
-    border-radius: 1px 1px 1px 1px;
-    background-color: royalblue;
-    margin: 0;
-    padding: 0;
-}
 p{
  text-align: justify;   
 }
